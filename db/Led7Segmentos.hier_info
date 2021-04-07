@@ -1,0 +1,8 @@
+|sietesegmentos
+reloj => ~NO_FANOUT~
+display[0] << <GND>
+display[1] << <VCC>
+display[2] << <VCC>
+display[3] << <VCC>
+
+
