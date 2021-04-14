@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Led7Segmentos
-Tue Apr 06 22:43:45 2021
+Wed Apr 14 13:23:50 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -37,9 +37,9 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Apr 06 22:43:45 2021 ;
+; EDA Netlist Writer Status ; Successful - Wed Apr 14 13:23:50 2021 ;
 ; Revision Name             ; Led7Segmentos                         ;
-; Top-level Entity Name     ; sietesegmentos                        ;
+; Top-level Entity Name     ; Led7Segmentos                         ;
 ; Family                    ; Cyclone IV E                          ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -89,7 +89,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Tue Apr 06 22:43:44 2021
+    Info: Processing started: Wed Apr 14 13:23:48 2021
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Led7Segmentos -c Led7Segmentos
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file Led7Segmentos_8_1200mv_85c_slow.vo in folder "C:/altera_lite/Lab 6/simulation/modelsim/" for EDA simulation tool
@@ -101,9 +101,9 @@ Info (204019): Generated file Led7Segmentos_8_1200mv_0c_v_slow.sdo in folder "C:
 Info (204019): Generated file Led7Segmentos_min_1200mv_0c_v_fast.sdo in folder "C:/altera_lite/Lab 6/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file Led7Segmentos_v.sdo in folder "C:/altera_lite/Lab 6/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4846 megabytes
-    Info: Processing ended: Tue Apr 06 22:43:45 2021
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 4849 megabytes
+    Info: Processing ended: Wed Apr 14 13:23:50 2021
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,8 +1,89 @@
-|sietesegmentos
+|Led7Segmentos
+E <= <VCC>
+A <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+X => Circuito-A:inst41.x
+X => Circuito-B:inst.X
+X => Circuito-C:inst8.X
+X => Circuito-D:inst42.x
+X => Circuito-F:inst40.X
+X => Circuito-G:inst17.X
+Y => Circuito-A:inst41.y
+Y => Circuito-B:inst.Y
+Y => Circuito-C:inst8.Y
+Y => Circuito-D:inst42.y
+Y => Circuito-F:inst40.Y
+Z => Circuito-A:inst41.z
+Z => Circuito-B:inst.Z
+Z => Circuito-C:inst8.Z
+Z => Circuito-D:inst42.z
+Z => Circuito-F:inst40.Z
+Z => Circuito-G:inst17.Z
+B <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+F <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+G <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+D1 <= display[0].DB_MAX_OUTPUT_PORT_TYPE
+RELOJ => sietesegmentos:inst15.reloj
+D2 <= display[1].DB_MAX_OUTPUT_PORT_TYPE
+D3 <= display[2].DB_MAX_OUTPUT_PORT_TYPE
+D4 <= display[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Led7Segmentos|Circuito-A:inst41
+a <= inst.DB_MAX_OUTPUT_PORT_TYPE
+y => inst4.IN0
+y => inst2.IN0
+z => inst4.IN1
+z => inst3.IN0
+x => inst5.IN0
+x => inst1.IN0
+
+
+|Led7Segmentos|Circuito-B:inst
+B <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Z => inst5.IN0
+Z => inst2.IN1
+Z => inst.IN1
+X => inst1.IN1
+X => inst4.IN0
+Y => inst2.IN0
+
+
+|Led7Segmentos|Circuito-C:inst8
+C <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Z => inst3.IN0
+X => inst2.IN0
+Y => inst.IN0
+
+
+|Led7Segmentos|Circuito-D:inst42
+d <= inst.DB_MAX_OUTPUT_PORT_TYPE
+y => inst2.IN0
+y => inst5.IN0
+z => inst4.IN1
+z => inst3.IN0
+x => inst1.IN0
+
+
+|Led7Segmentos|Circuito-F:inst40
+F <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Y => inst1.IN0
+Z => inst.IN1
+X => inst2.IN0
+
+
+|Led7Segmentos|Circuito-G:inst17
+G <= inst.DB_MAX_OUTPUT_PORT_TYPE
+X => inst.IN0
+Z => inst.IN1
+
+
+|Led7Segmentos|sietesegmentos:inst15
 reloj => ~NO_FANOUT~
-display[0] << <GND>
-display[1] << <VCC>
-display[2] << <VCC>
-display[3] << <VCC>
+display[0] <= <GND>
+display[1] <= <VCC>
+display[2] <= <VCC>
+display[3] <= <VCC>
 
 

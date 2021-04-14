@@ -1,15 +1,15 @@
-Fitter Status : Successful - Tue Apr 06 22:43:30 2021
+Fitter Status : Successful - Wed Apr 14 13:23:26 2021
 Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 Revision Name : Led7Segmentos
-Top-level Entity Name : sietesegmentos
+Top-level Entity Name : Led7Segmentos
 Family : Cyclone IV E
 Device : EP4CE6E22C8
 Timing Models : Final
-Total logic elements : 0 / 6,272 ( 0 % )
-    Total combinational functions : 0 / 6,272 ( 0 % )
+Total logic elements : 6 / 6,272 ( < 1 % )
+    Total combinational functions : 6 / 6,272 ( < 1 % )
     Dedicated logic registers : 0 / 6,272 ( 0 % )
 Total registers : 0
-Total pins : 5 / 92 ( 5 % )
+Total pins : 15 / 92 ( 16 % )
 Total virtual pins : 0
 Total memory bits : 0 / 276,480 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )

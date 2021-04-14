@@ -1,5 +1,5 @@
 Assembler report for Led7Segmentos
-Tue Apr 06 22:43:38 2021
+Wed Apr 14 13:23:39 2021
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -38,9 +38,9 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 06 22:43:38 2021 ;
+; Assembler Status      ; Successful - Wed Apr 14 13:23:38 2021 ;
 ; Revision Name         ; Led7Segmentos                         ;
-; Top-level Entity Name ; sietesegmentos                        ;
+; Top-level Entity Name ; Led7Segmentos                         ;
 ; Family                ; Cyclone IV E                          ;
 ; Device                ; EP4CE6E22C8                           ;
 +-----------------------+---------------------------------------+
@@ -68,8 +68,8 @@ agreement for further details.
 ; Option         ; Setting                                                      ;
 +----------------+--------------------------------------------------------------+
 ; Device         ; EP4CE6E22C8                                                  ;
-; JTAG usercode  ; 0x000930CE                                                   ;
-; Checksum       ; 0x000930CE                                                   ;
+; JTAG usercode  ; 0x000949B4                                                   ;
+; Checksum       ; 0x000949B4                                                   ;
 +----------------+--------------------------------------------------------------+
 
 
@@ -79,15 +79,15 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Tue Apr 06 22:43:37 2021
+    Info: Processing started: Wed Apr 14 13:23:35 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Led7Segmentos -c Led7Segmentos
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4876 megabytes
-    Info: Processing ended: Tue Apr 06 22:43:38 2021
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Wed Apr 14 13:23:39 2021
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:01
 
 
